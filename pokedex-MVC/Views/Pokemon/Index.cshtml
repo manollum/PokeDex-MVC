@@ -1,0 +1,78 @@
+﻿@model IEnumerable<dominio.Pokemon>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a class="btn btn-primary" asp-action="Create">Agregar nuevo</a>
+</p>
+<p>
+    <form asp-action="Index" method="get">
+        <input value="@ViewBag.filtro" type="text" name="filtro" placeholder="Escribí el nombre a buscar" class="form-control" />
+        <button type="submit" class="btn btn-outline-success">Filtrar</button>
+    </form>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+@*             <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th> *@
+            <th>
+                @Html.DisplayNameFor(model => model.Numero)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nombre)
+            </th>
+@*             <th>
+                @Html.DisplayNameFor(model => model.Descripcion)
+            </th> *@
+            <th>
+                @Html.DisplayNameFor(model => model.UrlImagen)
+            </th>
+            <th>
+                Tipo
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Activo)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+@*             <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td> *@
+            <td>
+                @Html.DisplayFor(modelItem => item.Numero)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nombre)
+            </td>
+@*             <td>
+                @Html.DisplayFor(modelItem => item.Descripcion)
+            </td> *@
+            <td>
+@*                 @Html.DisplayFor(modelItem => item.UrlImagen) *@
+                   <img src="@item.UrlImagen" height="50" />
+            </td>
+            <td>
+               @item.Tipo.Descripcion
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Activo)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-outline-primary">Editar</a> |
+                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-outline-success">Detalle</a>|
+                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-outline-danger">Eliminar</a> |
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
