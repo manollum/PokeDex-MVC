@@ -1,0 +1,113 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Manu\\Desktop\\Maxi C#4 - MVC\\ejemplos-asp-webforms-main\\pokedex-web\\pokedex-web.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Manu\\Desktop\\Maxi C#4 - MVC\\ejemplos-asp-webforms-main\\dominio\\dominio.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Manu\\Desktop\\Maxi C#4 - MVC\\ejemplos-asp-webforms-main\\dominio\\dominio.csproj",
+        "projectName": "dominio",
+        "projectPath": "C:\\Users\\Manu\\Desktop\\Maxi C#4 - MVC\\ejemplos-asp-webforms-main\\dominio\\dominio.csproj",
+        "UsingMicrosoftNETSdk": false,
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Users\\Manu\\Desktop\\Maxi C#4 - MVC\\ejemplos-asp-webforms-main\\negocio\\negocio.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Manu\\Desktop\\Maxi C#4 - MVC\\ejemplos-asp-webforms-main\\negocio\\negocio.csproj",
+        "projectName": "negocio",
+        "projectPath": "C:\\Users\\Manu\\Desktop\\Maxi C#4 - MVC\\ejemplos-asp-webforms-main\\negocio\\negocio.csproj",
+        "UsingMicrosoftNETSdk": false,
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Users\\Manu\\Desktop\\Maxi C#4 - MVC\\ejemplos-asp-webforms-main\\dominio\\dominio.csproj": {
+                "projectPath": "C:\\Users\\Manu\\Desktop\\Maxi C#4 - MVC\\ejemplos-asp-webforms-main\\dominio\\dominio.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Users\\Manu\\Desktop\\Maxi C#4 - MVC\\ejemplos-asp-webforms-main\\pokedex-web\\pokedex-web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Manu\\Desktop\\Maxi C#4 - MVC\\ejemplos-asp-webforms-main\\pokedex-web\\pokedex-web.csproj",
+        "projectName": "pokedex-web",
+        "projectPath": "C:\\Users\\Manu\\Desktop\\Maxi C#4 - MVC\\ejemplos-asp-webforms-main\\pokedex-web\\pokedex-web.csproj",
+        "packagesPath": "C:\\Users\\Manu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Manu\\Desktop\\Maxi C#4 - MVC\\ejemplos-asp-webforms-main\\pokedex-web\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "UsingMicrosoftNETSdk": false,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Manu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Users\\Manu\\Desktop\\Maxi C#4 - MVC\\ejemplos-asp-webforms-main\\dominio\\dominio.csproj": {
+                "projectPath": "C:\\Users\\Manu\\Desktop\\Maxi C#4 - MVC\\ejemplos-asp-webforms-main\\dominio\\dominio.csproj"
+              },
+              "C:\\Users\\Manu\\Desktop\\Maxi C#4 - MVC\\ejemplos-asp-webforms-main\\negocio\\negocio.csproj": {
+                "projectPath": "C:\\Users\\Manu\\Desktop\\Maxi C#4 - MVC\\ejemplos-asp-webforms-main\\negocio\\negocio.csproj"
+              }
+            }
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "Microsoft.CodeDom.Providers.DotNetCompilerPlatform": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-arm64": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

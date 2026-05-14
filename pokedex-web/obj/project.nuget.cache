@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "QlasVnFf0rM=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Manu\\Desktop\\Maxi C#4 - MVC\\ejemplos-asp-webforms-main\\pokedex-web\\pokedex-web.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Manu\\.nuget\\packages\\microsoft.codedom.providers.dotnetcompilerplatform\\4.1.0\\microsoft.codedom.providers.dotnetcompilerplatform.4.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

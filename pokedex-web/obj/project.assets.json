@@ -1,0 +1,341 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.8": {
+      "Microsoft.CodeDom.Providers.DotNetCompilerPlatform/4.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net472/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net472/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/net472/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets": {}
+        }
+      },
+      "dominio/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/dominio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/dominio.dll": {}
+        }
+      },
+      "negocio/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "dominio": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/negocio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/negocio.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win": {
+      "Microsoft.CodeDom.Providers.DotNetCompilerPlatform/4.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net472/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net472/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/net472/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets": {}
+        }
+      },
+      "dominio/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/dominio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/dominio.dll": {}
+        }
+      },
+      "negocio/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "dominio": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/negocio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/negocio.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win-arm64": {
+      "Microsoft.CodeDom.Providers.DotNetCompilerPlatform/4.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net472/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net472/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/net472/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets": {}
+        }
+      },
+      "dominio/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/dominio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/dominio.dll": {}
+        }
+      },
+      "negocio/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "dominio": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/negocio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/negocio.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win-x64": {
+      "Microsoft.CodeDom.Providers.DotNetCompilerPlatform/4.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net472/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net472/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/net472/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets": {}
+        }
+      },
+      "dominio/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/dominio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/dominio.dll": {}
+        }
+      },
+      "negocio/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "dominio": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/negocio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/negocio.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win-x86": {
+      "Microsoft.CodeDom.Providers.DotNetCompilerPlatform/4.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net472/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net472/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/net472/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets": {}
+        }
+      },
+      "dominio/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/dominio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/dominio.dll": {}
+        }
+      },
+      "negocio/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "dominio": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/negocio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/negocio.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.CodeDom.Providers.DotNetCompilerPlatform/4.1.0": {
+      "sha512": "o34xN9ugrjXCj45UuZhKjHzuxWCdrlWdqhzhVJ6J7a67djTFD6k+1WBm8Hz7Dbi+KQm98eUmlKEg3DsF1uqZow==",
+      "type": "package",
+      "path": "microsoft.codedom.providers.dotnetcompilerplatform/4.1.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net472/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets",
+        "icons/dotnet.png",
+        "lib/net472/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll",
+        "lib/net472/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml",
+        "microsoft.codedom.providers.dotnetcompilerplatform.4.1.0.nupkg.sha512",
+        "microsoft.codedom.providers.dotnetcompilerplatform.nuspec",
+        "tasks/DotNetCompilerPlatformTasks.dll",
+        "tasks/System.Management.dll",
+        "tools/Roslyn-4.1.0/Microsoft.Build.Tasks.CodeAnalysis.dll",
+        "tools/Roslyn-4.1.0/Microsoft.CSharp.Core.targets",
+        "tools/Roslyn-4.1.0/Microsoft.CodeAnalysis.CSharp.Scripting.dll",
+        "tools/Roslyn-4.1.0/Microsoft.CodeAnalysis.CSharp.dll",
+        "tools/Roslyn-4.1.0/Microsoft.CodeAnalysis.Scripting.dll",
+        "tools/Roslyn-4.1.0/Microsoft.CodeAnalysis.VisualBasic.dll",
+        "tools/Roslyn-4.1.0/Microsoft.CodeAnalysis.dll",
+        "tools/Roslyn-4.1.0/Microsoft.DiaSymReader.Native.amd64.dll",
+        "tools/Roslyn-4.1.0/Microsoft.DiaSymReader.Native.x86.dll",
+        "tools/Roslyn-4.1.0/Microsoft.Managed.Core.CurrentVersions.targets",
+        "tools/Roslyn-4.1.0/Microsoft.Managed.Core.targets",
+        "tools/Roslyn-4.1.0/Microsoft.VisualBasic.Core.targets",
+        "tools/Roslyn-4.1.0/System.Buffers.dll",
+        "tools/Roslyn-4.1.0/System.Collections.Immutable.dll",
+        "tools/Roslyn-4.1.0/System.Memory.dll",
+        "tools/Roslyn-4.1.0/System.Numerics.Vectors.dll",
+        "tools/Roslyn-4.1.0/System.Reflection.Metadata.dll",
+        "tools/Roslyn-4.1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "tools/Roslyn-4.1.0/System.Text.Encoding.CodePages.dll",
+        "tools/Roslyn-4.1.0/System.Threading.Tasks.Extensions.dll",
+        "tools/Roslyn-4.1.0/VBCSCompiler.exe",
+        "tools/Roslyn-4.1.0/VBCSCompiler.exe.config",
+        "tools/Roslyn-4.1.0/csc.exe",
+        "tools/Roslyn-4.1.0/csc.exe.config",
+        "tools/Roslyn-4.1.0/csc.rsp",
+        "tools/Roslyn-4.1.0/csi.exe",
+        "tools/Roslyn-4.1.0/csi.exe.config",
+        "tools/Roslyn-4.1.0/csi.rsp",
+        "tools/Roslyn-4.1.0/vbc.exe",
+        "tools/Roslyn-4.1.0/vbc.exe.config",
+        "tools/Roslyn-4.1.0/vbc.rsp"
+      ]
+    },
+    "dominio/1.0.0": {
+      "type": "project",
+      "path": "../dominio/dominio.csproj",
+      "msbuildProject": "../dominio/dominio.csproj"
+    },
+    "negocio/1.0.0": {
+      "type": "project",
+      "path": "../negocio/negocio.csproj",
+      "msbuildProject": "../negocio/negocio.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.8": [
+      "Microsoft.CodeDom.Providers.DotNetCompilerPlatform >= 4.1.0",
+      "dominio >= 1.0.0",
+      "negocio >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Manu\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Manu\\Desktop\\Maxi C#4 - MVC\\ejemplos-asp-webforms-main\\pokedex-web\\pokedex-web.csproj",
+      "projectName": "pokedex-web",
+      "projectPath": "C:\\Users\\Manu\\Desktop\\Maxi C#4 - MVC\\ejemplos-asp-webforms-main\\pokedex-web\\pokedex-web.csproj",
+      "packagesPath": "C:\\Users\\Manu\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Manu\\Desktop\\Maxi C#4 - MVC\\ejemplos-asp-webforms-main\\pokedex-web\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "UsingMicrosoftNETSdk": false,
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Manu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net48"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net48": {
+          "projectReferences": {
+            "C:\\Users\\Manu\\Desktop\\Maxi C#4 - MVC\\ejemplos-asp-webforms-main\\dominio\\dominio.csproj": {
+              "projectPath": "C:\\Users\\Manu\\Desktop\\Maxi C#4 - MVC\\ejemplos-asp-webforms-main\\dominio\\dominio.csproj"
+            },
+            "C:\\Users\\Manu\\Desktop\\Maxi C#4 - MVC\\ejemplos-asp-webforms-main\\negocio\\negocio.csproj": {
+              "projectPath": "C:\\Users\\Manu\\Desktop\\Maxi C#4 - MVC\\ejemplos-asp-webforms-main\\negocio\\negocio.csproj"
+            }
+          }
+        }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net48": {
+        "dependencies": {
+          "Microsoft.CodeDom.Providers.DotNetCompilerPlatform": {
+            "target": "Package",
+            "version": "[4.1.0, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-arm64": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}
