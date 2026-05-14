@@ -1,0 +1,6 @@
+C:\Users\Manu\Desktop\Maxi C#4 - MVC\ejemplos-asp-webforms-main\dominio\bin\Debug\dominio.dll
+C:\Users\Manu\Desktop\Maxi C#4 - MVC\ejemplos-asp-webforms-main\dominio\bin\Debug\dominio.pdb
+C:\Users\Manu\Desktop\Maxi C#4 - MVC\ejemplos-asp-webforms-main\dominio\obj\Debug\dominio.csproj.AssemblyReference.cache
+C:\Users\Manu\Desktop\Maxi C#4 - MVC\ejemplos-asp-webforms-main\dominio\obj\Debug\dominio.csproj.CoreCompileInputs.cache
+C:\Users\Manu\Desktop\Maxi C#4 - MVC\ejemplos-asp-webforms-main\dominio\obj\Debug\dominio.dll
+C:\Users\Manu\Desktop\Maxi C#4 - MVC\ejemplos-asp-webforms-main\dominio\obj\Debug\dominio.pdb
